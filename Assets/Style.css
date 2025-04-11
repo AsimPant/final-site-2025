@@ -1,0 +1,282 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: CenturyGothic;
+}
+
+#main {
+	width: 1320px;
+	margin: auto;
+	min-height: 100vh;
+	position: relative;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(resturant.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	padding-bottom: 30px;
+}
+
+nav{
+	width: 100%;
+	height: 125px;
+	background-color: #0009;
+	line-height: 80px;
+}
+
+nav ul{
+	float: right;
+	margin-top: 25px;
+	margin-right: 30px;
+}
+
+nav ul li{
+	display: inline-block;
+	list-style-type: none;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 30px;
+	border: 1px solid transparent;
+}
+
+nav ul li a:hover{
+	background-color: #f39d1a;
+	color: #000;
+}
+
+.logo img{
+	float: left;
+	width: 55px;
+	height: auto;
+	margin-top: 15px;
+	margin-left: 30px;
+}
+
+#title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#title h1{
+	color: #fff;
+	font-size: 60px;
+	text-align: center;
+}
+
+.button{
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.btn{
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.btn:hover{
+	background-color: #f39d1a;
+	color: #000;
+}
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	margin-top: 25px;
+	padding: 20px;
+}
+
+.header h1{
+	text-align: center;
+	font-size: 55px;
+	margin-bottom: 20px;
+	color: #fff;
+	font-family: concord;
+}
+
+.freespace {
+	height: 550px;
+}
+		
+.menu {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 20px;
+	padding: 20px;
+	background-color: #f2f2f2;
+	background-color: rgba(255, 255, 255, 0.15); /* 80% opaque */
+	border-radius: 10px;
+	border-spacing: 10px;
+}
+		
+.menu-item {
+	background-color: rgba(242, 242, 242, 0.8);
+	width: 300px;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	padding: 10px;
+}
+		
+.menu-item h2 {
+	font-size: 24px;
+	margin-top: 0;
+	margin-bottom: 10px;
+	text-align: center;
+}
+		
+.menu-item p {
+	font-size: 18px;
+	margin-top: 0;
+	margin-bottom: 10px;
+	text-align: justify;
+}
+		
+.menu-item img {
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 10px;
+	border-radius: 10px;
+}
+
+.price {
+	font-weight: bold;
+}
+
+.about h1 {
+	text-align: center;
+	font-size: 55px;
+	margin-bottom: 20px;
+	color: #fff;
+	font-family: concord;
+}
+
+.about p{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 20px;
+	padding: 20px;
+	background-color: #f2f2f2;
+	background-color: rgba(242, 242, 242, 0.8);
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+
+.about p img {
+	align-items: center;
+}
+
+.form h1{
+	text-align: center;
+	font-size: 55px;
+	margin-bottom: 20px;
+	color: #fff;
+	font-family: concord;
+}
+
+form {
+    margin-top: 30px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #fff;
+}
+      
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+textarea {
+    height: 120px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
+
+.gallery {
+	width: 80%;
+	margin: 0 auto;
+	background-color: rgba(255, 255, 255, 0.15); /* subtle white tint */
+	padding: 20px;
+	border-radius: 10px;
+	backdrop-filter: blur(5px);
+}
+
+table {
+	width: 100%;
+	border-collapse: separate;
+	border-spacing: 20px;
+}
+
+td {
+	background-color: rgba(242, 242, 242, 0.8);
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	padding: 15px;
+	vertical-align: top;
+	width: 50%;
+}
+
+td h2 {
+	text-align: center;
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+
+td img {
+	display: block;
+	margin: 0 auto 10px auto;
+	max-width: 100%;
+	border-radius: 10px;
+}
+
+footer {
+	background-color: #0009; /* Same as nav background */
+	color: #fff;
+	width: 97%;
+	padding: 20px;
+	text-align: center;
+	margin: 40px auto 0;
+}
+
+footer .footer-content p {
+	margin: 5px 0;
+}
+
+footer a {
+	color: #f39d1a;
+	text-decoration: none;
+}
+
+footer a:hover {
+	color: #fff;
+}
